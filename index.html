@@ -16,12 +16,12 @@
     <li><a href="">Портфоліо</a></li>
     <li><a href="">Контакти</a></li>
 </ul>
-</nav>
+
 <ul class="mail">
     <li><a href="">info@devstudio.com</a></li>
     <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
 </ul>
-
+</nav>
     </header>
     <main>
 <div>
@@ -55,16 +55,27 @@
 
 <section class="s3">
     <h2>Чим ми займаємося</h2>
-    <ul>
-   <li> <img src="./images/working.jpg" alt="Людина працює"  width="270"></li>
-    <li><img src="./images/phone.jpg" alt="Людина працює за телефоном"  width="270"></li>
-    <li><img src="./images/tablet.jpg" alt="Людина працює за планшетом" width="270"></li>
-    </ul>
+    <div class="wrapper">
+        <input type="radio" name="point" id="slide1" checked>
+        <input type="radio" name="point" id="slide2">
+        <input type="radio" name="point" id="slide3">
+    
+        <div class="slider">
+            <div class="slides slide1"></div>
+            <div class="slides slide2"></div>
+            <div class="slides slide3"></div>
+        </div>
+        <div class="controls">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+    
+        </div>
+    </div>
 </section>
-<section>
+<section class="s4">
 <h2>Наша команда</h2>
-
-<ul>
+<ul class="u3">
 <li>
 <img src="./images/5.jpg" alt="Учасник команди"  width="270" >  <h3>Ігор Дем'яненко</h3><p>Product Designer</p>
 </li>
